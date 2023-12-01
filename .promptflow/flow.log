@@ -1,0 +1,19 @@
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Start executing nodes in thread pool mode.
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Start to run 6 nodes with concurrency level 16.
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Executing node setup_env. node run id: 4dee9280-994c-479d-b722-796dec4f7695_setup_env_0
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Node setup_env completes.
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Executing node download_tool. node run id: 4dee9280-994c-479d-b722-796dec4f7695_download_tool_0
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Executing node rewrite_question_tool. node run id: 4dee9280-994c-479d-b722-796dec4f7695_rewrite_question_tool_0
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     [download_tool in line 0 (index starts from 0)] stdout> PDF already exists in c:\Users\pb013\git\pdf_chat_pf\chat_with_pdf\.pdfs\https___arxiv.org_pdf_1810.04805.pdf.pdf
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Node download_tool completes.
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Executing node build_index_tool. node run id: 4dee9280-994c-479d-b722-796dec4f7695_build_index_tool_0
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     [build_index_tool in line 0 (index starts from 0)] stdout> Chunk size: 1024, chunk overlap: 64
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     [build_index_tool in line 0 (index starts from 0)] stdout> Index path: C:\Users\pb013\git\pdf_chat_pf\chat_with_pdf\.index\.pdfs\https___arxiv.org_pdf_1810.04805.pdf.pdf.index_1024_64
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     [build_index_tool in line 0 (index starts from 0)] stdout> Index already exists, bypassing index creation
+2023-12-01 12:33:19 -0500   21312 execution.flow     INFO     Node build_index_tool completes.
+2023-12-01 12:33:21 -0500   21312 execution.flow     INFO     [rewrite_question_tool in line 0 (index starts from 0)] stdout> Rewritten question: Can you describe the process that led to the creation of BERT?
+2023-12-01 12:33:21 -0500   21312 execution.flow     INFO     Node rewrite_question_tool completes.
+2023-12-01 12:33:21 -0500   21312 execution.flow     INFO     Executing node find_context_tool. node run id: 4dee9280-994c-479d-b722-796dec4f7695_find_context_tool_0
+2023-12-01 12:33:23 -0500   21312 execution.flow     INFO     Node find_context_tool completes.
+2023-12-01 12:33:23 -0500   21312 execution.flow     INFO     Executing node qna_tool. node run id: 4dee9280-994c-479d-b722-796dec4f7695_qna_tool_0
+2023-12-01 12:33:51 -0500   21312 execution.flow     INFO     Node qna_tool completes.
